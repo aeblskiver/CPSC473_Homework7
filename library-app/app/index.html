@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>LibraryApp</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> {{content-for "head"}}
+
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/library-app.css"> {{content-for "head-footer"}}
+</head>
+
+<body>
+  {{content-for "body"}}
+
+<!--
+  <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyASe6NXfWDxINnB-z1NXpcnrQtY9CrhTQQ",
+      authDomain: "library-app-95df1.firebaseapp.com",
+      databaseURL: "https://library-app-95df1.firebaseio.com",
+      projectId: "library-app-95df1",
+      storageBucket: "",
+      messagingSenderId: "1091505287557"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+-->
+
+  <script src="{{rootURL}}assets/vendor.js"></script>
+  <script src="{{rootURL}}assets/library-app.js"></script>
+
+  {{content-for "body-footer"}}
+</body>
+
+</html>
